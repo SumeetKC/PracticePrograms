@@ -6,7 +6,7 @@ public class SumElements {
         int[] arr = {1,3,5,7,9};
         int sum = 0;
         for(int j : arr){
-            sum += j;
+            sum =+ j;
         }
 
         System.out.println("Sum of all Elements is " + sum);
